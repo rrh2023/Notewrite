@@ -13,6 +13,7 @@ app.use(express.urlencoded({extended: false}))
 mongoose.connect("mongodb+srv://rrh2023:BUschool2019!@cluster0.0win1.mongodb.net/myFirstDatabase?retryWrites=true&w=majority")
 
 //create the data schema
+///
 const noteSchema = {
     title: String,
     body: String
